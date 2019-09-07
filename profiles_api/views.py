@@ -10,7 +10,7 @@ class HelloApiView(APIView):
             'Uses Http methods as function (get, post, put, patch, delete)',
             'Is similar to a traditional Django view',
             'Gives you the most control over your application logic',
-            'Is manually mapped to URLS',
+            'Is manually mapped to URLs',
         ]
 
         return Response( {'message': 'Hello!', 'an_apiview':an_apiview} )
